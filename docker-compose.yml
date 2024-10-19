@@ -16,6 +16,7 @@ services:
   socket:
     # image: socketcluster/socketcluster:v17.4.0
     build:
+    # download socketcluster/socketcluster:v17.4.3-arm64 from git@github.com:ashishkpaul/socketcluster.git
       context: /mnt/ext-hdd/projects/fleetbase/socketcluster-arm64/socketcluster
     ports:
       - "38000:8000"
